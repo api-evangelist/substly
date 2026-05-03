@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "substly": "https://www.substly.com/vocab#",
+
+    "Subscription": {
+      "@id": "substly:Subscription",
+      "@type": "@id",
+      "schema:description": "A recurring SaaS software subscription tracked in Substly"
+    },
+    "SaaSApplication": {
+      "@id": "substly:SaaSApplication",
+      "@type": "@id",
+      "schema:sameAs": "schema:SoftwareApplication"
+    },
+    "Vendor": {
+      "@id": "substly:Vendor",
+      "@type": "@id",
+      "schema:sameAs": "schema:Organization"
+    },
+    "License": {
+      "@id": "substly:License",
+      "@type": "@id"
+    },
+    "UserAccess": {
+      "@id": "substly:UserAccess",
+      "@type": "@id"
+    },
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "vendor": "substly:vendor",
+    "renewalDate": "substly:renewalDate",
+    "cost": "schema:price",
+    "currency": "schema:priceCurrency",
+    "licenseCount": "substly:licenseCount",
+    "userCount": "substly:userCount",
+    "category": "schema:applicationCategory",
+    "status": "substly:status",
+    "shadowIT": "substly:shadowIT",
+    "department": "schema:department",
+    "owner": "schema:accountablePerson"
+  }
+}

@@ -1,0 +1,136 @@
+vocabulary:
+  name: Substly Vocabulary
+  description: >-
+    Domain vocabulary for Substly, the SaaS management platform for SMBs.
+    Covers subscription management, spend optimization, user access, and shadow IT concepts.
+  version: '1.0'
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  tags:
+    - SaaS Management
+    - Subscription Management
+    - Spend Management
+    - Shadow IT
+
+  terms:
+    - term: Subscription
+      definition: >-
+        A recurring payment agreement for a SaaS application or software service,
+        tracked in Substly by renewal date, cost, and user count.
+      tags:
+        - Core Concept
+        - Billing
+
+    - term: SaaS Application
+      definition: >-
+        A cloud-hosted software service accessed over the internet, typically
+        on a subscription basis. Substly tracks and categorizes all SaaS apps
+        used across an organization.
+      tags:
+        - Core Concept
+
+    - term: Shadow IT
+      definition: >-
+        Software or SaaS applications used within an organization without
+        explicit IT department approval or awareness. Substly detects shadow IT
+        through Google Workspace and Microsoft Entra ID integrations.
+      tags:
+        - Security
+        - IT Management
+
+    - term: Spend Management
+      definition: >-
+        The process of tracking, analyzing, and optimizing organizational
+        expenditure on software subscriptions. Substly automates spend tracking
+        and forecasting.
+      tags:
+        - Finance
+        - Optimization
+
+    - term: Renewal Date
+      definition: >-
+        The date on which a SaaS subscription automatically renews and a
+        payment is charged. Substly tracks renewal dates and sends customizable
+        reminders.
+      tags:
+        - Billing
+        - Lifecycle
+
+    - term: User Access
+      definition: >-
+        Control and visibility over which employees have access to which SaaS
+        applications, including provisioning and deprovisioning workflows.
+      tags:
+        - Access Management
+        - Security
+
+    - term: License
+      definition: >-
+        A software usage entitlement purchased as part of a SaaS subscription,
+        tracked per user or seat in Substly.
+      tags:
+        - Billing
+        - Compliance
+
+    - term: Integration
+      definition: >-
+        A connection between Substly and another system (Google Workspace,
+        Microsoft Entra ID, accounting software) that enables automated data sync.
+      tags:
+        - Connectivity
+        - Automation
+
+    - term: Cost Optimization
+      definition: >-
+        The practice of reducing unnecessary SaaS spend by identifying unused
+        licenses, duplicate applications, and over-provisioned subscriptions.
+      tags:
+        - Finance
+        - Optimization
+
+    - term: Application Inventory
+      definition: >-
+        A centralized catalog of all SaaS applications used across an organization,
+        including vendor details, cost, user count, and renewal information.
+      tags:
+        - Core Concept
+        - Visibility
+
+    - term: Vendor
+      definition: >-
+        A SaaS provider whose application is tracked in Substly, including
+        contract details, pricing, and renewal terms.
+      tags:
+        - Procurement
+        - Contracts
+
+    - term: Usage Insights
+      definition: >-
+        Analytics and reporting on how SaaS applications are being used across
+        the organization, helping identify underutilized tools.
+      tags:
+        - Analytics
+        - Reporting
+
+    - term: SMB
+      definition: >-
+        Small and Medium-sized Business — Substly's primary target market,
+        offering affordable SaaS management without enterprise-level complexity.
+      tags:
+        - Market Segment
+
+    - term: Google Workspace Integration
+      definition: >-
+        Native Substly integration that syncs groups, users, and services from
+        Google Workspace to detect shadow IT and track usage.
+      tags:
+        - Integration
+        - Google
+
+    - term: Microsoft Entra ID Integration
+      definition: >-
+        Native Substly integration (formerly Azure AD) that syncs groups, users,
+        and services from Microsoft Entra ID for user lifecycle management.
+      tags:
+        - Integration
+        - Microsoft
