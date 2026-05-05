@@ -1,0 +1,13 @@
+{
+  "repo": "substly",
+  "feeds": [
+    {
+      "source": "https://www.substly.com/en/blog/",
+      "feed_url": "https://www.substly.com/en/blog/rss.xml",
+      "saved": 10,
+      "title": "Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:37:15Z"
+}
