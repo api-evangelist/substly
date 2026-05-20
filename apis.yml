@@ -45,6 +45,8 @@ apis:
       - type: HowItWorks
         url: https://www.substly.com/en/how-it-works
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/substly
   - type: Website
     url: https://www.substly.com
   - type: Documentation
