@@ -2,13 +2,20 @@
   "repo": "substly",
   "feeds": [
     {
-      "source": "https://www.substly.com/en/blog/",
+      "source": "https://www.substly.com/en/blog/atom.xml",
       "feed_url": "https://www.substly.com/en/blog/atom.xml",
-      "title": "Blog",
+      "title": "",
       "saved": 0,
-      "last_error": "http_404"
+      "method": "feed"
+    },
+    {
+      "source": "https://www.substly.com/en/pricing/",
+      "feed_url": "https://www.substly.com/en/pricing/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 15,
+  "fetched": "2026-06-01T23:35:02Z"
 }
